@@ -59,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/database/queries/SearchArtists.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="421">
-              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+              <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -326,12 +326,12 @@
       <option name="presentableId" value="Default" />
       <updated>1491235625411</updated>
       <workItem from="1491235626494" duration="3531000" />
-      <workItem from="1491314118179" duration="5741000" />
+      <workItem from="1491314118179" duration="5979000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9272000" />
+    <option name="totallyTimeSpent" value="9510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="540" y="23" width="900" height="873" extended-state="0" />
@@ -539,7 +539,7 @@
     <entry file="file://$PROJECT_DIR$/database/queries/SearchArtists.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
-          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
           <folding />
         </state>
       </provider>
