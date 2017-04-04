@@ -7,4 +7,7 @@ const Artist = require('../models/artist');
  */
 module.exports = (artistProps) => {
     return Artist.create(artistProps);
+
+    // let artist = new Artist(artistProps);
+    // return artist.save();
 };
