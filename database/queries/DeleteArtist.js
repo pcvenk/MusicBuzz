@@ -8,11 +8,13 @@ const Artist = require('../models/artist');
 module.exports = (_id) => {
     // return Artist.findByIdAndRemove(_id);
 
-     return Artist.findOne({_id: _id}, (err, foundArtist) => {
-        if(err){
-            console.warn(err);
-        } else {
-            foundArtist.remove();
-        }
-    });
+    //  return Artist.findOne({_id: _id}, (err, foundArtist) => {
+    //     if(err){
+    //         console.warn(err);
+    //     } else {
+    //         foundArtist.remove();
+    //     }
+    // });
+
+    return Artist.remove({_id});
 };

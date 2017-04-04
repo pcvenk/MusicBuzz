@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d9f3f2b-74f2-4f76-b41f-6864de55370c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/queries/CreateArtist.js" afterPath="$PROJECT_DIR$/database/queries/CreateArtist.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/queries/DeleteArtist.js" afterPath="$PROJECT_DIR$/database/queries/DeleteArtist.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/queries/EditArtist.js" afterPath="$PROJECT_DIR$/database/queries/EditArtist.js" />
     </list>
     <ignored path="MusicBuzz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,8 +77,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteArtist.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeleteArtist.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/queries/DeleteArtist.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditArtist.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/queries/EditArtist.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
@@ -134,6 +143,7 @@
         <option value="$PROJECT_DIR$/database/queries/FindArtist.js" />
         <option value="$PROJECT_DIR$/database/queries/CreateArtist.js" />
         <option value="$PROJECT_DIR$/database/queries/DeleteArtist.js" />
+        <option value="$PROJECT_DIR$/database/queries/EditArtist.js" />
       </list>
     </option>
   </component>
@@ -317,12 +327,12 @@
       <option name="presentableId" value="Default" />
       <updated>1491235625411</updated>
       <workItem from="1491235626494" duration="3531000" />
-      <workItem from="1491314118179" duration="270000" />
+      <workItem from="1491314118179" duration="1138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3801000" />
+    <option name="totallyTimeSpent" value="4669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="540" y="23" width="900" height="873" extended-state="0" />
@@ -496,6 +506,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/queries/DeleteArtist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/queries/EditArtist.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
