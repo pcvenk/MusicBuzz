@@ -10,4 +10,5 @@ module.exports = (artistProps) => {
 
     // let artist = new Artist(artistProps);
     // return artist.save();
+
 };

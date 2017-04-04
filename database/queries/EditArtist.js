@@ -14,5 +14,8 @@ module.exports = (_id, artistProps) => {
     //         console.log(updDoc);
     //     }
     // });
-    return Artist.findByIdAndUpdate(_id, artistProps);
+
+    // return Artist.findByIdAndUpdate(_id, artistProps);
+
+    return Artist.update({_id}, artistProps);
 };
