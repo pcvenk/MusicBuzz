@@ -9,9 +9,15 @@ const Artist = require('../models/artist');
  * @return {promise} A promise that resolves with the artists, count, offset, and limit
  */
 module.exports = (criteria, sortProperty, offset = 0, limit = 10) => {
+
+    let sortOrder = {};
+    sortOrder[sortProperty] = 1;
+
     let query = Artist
         .find(buildQuery(criteria))
-        .sort({[sortProperty]:1})
+        //    es6 interpolated property
+        // .sort({[sortProperty]:1})
+        .sort(sortOrder)
         .skip(offset)
         .limit(limit);
 
@@ -30,6 +36,11 @@ module.exports = (criteria, sortProperty, offset = 0, limit = 10) => {
 
 const buildQuery = (criteria) => {
     const query = {};
+
+    //if searching for a name, use the mongo text operator. requires an index to be created
+    if(criteria.name) {
+        query.$text = { $search: criteria.name};
+    }
 
     if(criteria.age) {
         query.age = {
